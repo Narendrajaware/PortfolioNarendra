@@ -1,6 +1,6 @@
 # Narendra Jaware — Data Analyst & Business Intelligence Portfolio
 
-[![GitHub Pages Deployment](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2563eb?style=for-the-badge&logo=github)](https://narendrajaware.github.io/)
+[![GitHub Pages Deployment](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2563eb?style=for-the-badge&logo=github)](https://narendrajaware.github.io/PortfolioNarendra/)
 [![LinkedIn Profile](https://img.shields.io/badge/Connect-LinkedIn-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/narendrajaware)
 [![Email](https://img.shields.io/badge/Email-narendrajaware4%40gmail.com-ea4335?style=for-the-badge&logo=gmail)](mailto:narendrajaware4@gmail.com)
 
@@ -9,7 +9,7 @@ Welcome to the official portfolio repository of **Narendra Jaware**, a BSc Compu
 ---
 
 ## 🌐 Live Portfolio Website
-- **Live URL**: [https://narendrajaware.github.io/](https://narendrajaware.github.io/)
+- **Live URL**: [https://narendrajaware.github.io/PortfolioNarendra/](https://narendrajaware.github.io/PortfolioNarendra/)
 
 ---
 
@@ -64,11 +64,11 @@ Welcome to the official portfolio repository of **Narendra Jaware**, a BSc Compu
 To view the portfolio locally:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Narendrajaware/Narendrajaware.github.io.git
+   git clone https://github.com/Narendrajaware/PortfolioNarendra.git
    ```
 2. Navigate into the folder:
    ```bash
-   cd Narendrajaware.github.io
+   cd PortfolioNarendra
    ```
 3. Open `index.html` in your web browser, or launch with a local server:
    ```bash
