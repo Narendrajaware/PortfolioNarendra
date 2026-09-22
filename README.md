@@ -13,12 +13,16 @@ Welcome to the official portfolio repository of **Narendra Jaware**, a BSc Compu
 
 ---
 
-## 🛠️ Core Technical Competencies
+## 🛠️ Core Competencies & Toolkit
 
 - **BI & Visualization**: Power BI, Tableau, Power Query, Advanced Excel (Pivot Tables, Lookups, Modeling)
 - **Data Querying & Languages**: SQL, Python (Pandas, NumPy, Matplotlib, Seaborn), DAX
 - **Analytical Methods**: Exploratory Data Analysis (EDA), KPI Dashboards, Variance Analysis (Budget vs Actual), Risk Modeling, Market Segmentation
-- **Methodology**: Agile Project Management, Data Cleansing, Data Pipelines
+- **Professional & Soft Skills**:
+  - 🤝 Collaborative Teamwork (Win Together)
+  - ⚡ Agile Project Management
+  - ⏱️ Time Management
+  - 👂 Empathetic Listening
 
 ---
 
