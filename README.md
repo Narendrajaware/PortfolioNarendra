@@ -62,6 +62,16 @@ Welcome to the official portfolio repository of **Narendra Jaware**, a BSc Compu
 
 ---
 
+## 📜 Professional Certifications & Workshops
+
+1. **[IBM Data Analysis Using Python](https://www.credly.com/badges/271a250d-28fa-435c-9b93-d73246978184)** — Issued by IBM (Sep 17, 2026) • [Verify on Credly](https://www.credly.com/badges/271a250d-28fa-435c-9b93-d73246978184)
+2. **Security Analyst Certificate Programme** — Reliance Foundation Skilling Academy (ID: RFSA000534783, 07.07.2026)
+3. **SQL Mastery Certification** — IT Vedant (ID: ITV6a2af8864df7c, 14th May, 2026)
+4. **[Diwali Sales Insights: EDA for Targeted Marketing](https://courses.itvedant.skillsnetwork.site/certificates/33178916ed644d2eafba7be0cbfa9cd6)** — IBM Developer Skills Network & IT Vedant (Sep 17, 2026)
+5. **[Interpretable Gen AI for Informed Healthcare Decisions](https://courses.itvedant.skillsnetwork.site/certificates/c2311c106ee042ca9b2384200bb2620d)** — IBM Developer Skills Network & IT Vedant (Sep 17, 2026)
+
+---
+
 ## 💻 Local Preview & Development
 
 To view the portfolio locally:

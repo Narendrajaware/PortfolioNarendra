@@ -649,6 +649,152 @@
       font-size: 0.85rem;
     }
 
+    /* Professional Certifications & Workshops */
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 26px;
+    }
+    .cert-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.25s ease-out, box-shadow 0.3s ease, border-color 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .cert-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--primary);
+      box-shadow: var(--shadow-lg), 0 0 25px rgba(59, 130, 246, 0.18);
+    }
+    .cert-thumb-wrap {
+      width: 100%;
+      height: 200px;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      margin-bottom: 18px;
+      border: 1px solid var(--line);
+      background: #0e1524;
+      position: relative;
+      cursor: pointer;
+    }
+    .cert-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      transition: transform 0.4s ease;
+    }
+    .cert-thumb-wrap:hover .cert-thumb {
+      transform: scale(1.04);
+    }
+    .cert-thumb-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(9, 13, 22, 0.65);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 0.88rem;
+      font-weight: 600;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+      gap: 6px;
+    }
+    .cert-thumb-wrap:hover .cert-thumb-overlay {
+      opacity: 1;
+    }
+    .cert-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .cert-issuer {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--primary-hover);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .cert-date {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+    }
+    .cert-card h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      line-height: 1.35;
+      color: var(--text);
+    }
+    .cert-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      line-height: 1.55;
+      flex-grow: 1;
+    }
+    .cert-id-tag {
+      display: inline-block;
+      font-family: monospace;
+      font-size: 0.76rem;
+      background: var(--surface-card);
+      border: 1px solid var(--line);
+      padding: 4px 10px;
+      border-radius: 6px;
+      color: var(--primary-hover);
+      margin-bottom: 14px;
+      align-self: flex-start;
+    }
+    .cert-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: auto;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+    .cert-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 10px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: var(--transition);
+      border: 1px solid var(--line);
+      cursor: pointer;
+    }
+    .cert-btn-primary {
+      background: var(--primary-subtle);
+      color: var(--primary-hover) !important;
+      border-color: rgba(59, 130, 246, 0.3);
+    }
+    .cert-btn-primary:hover {
+      background: var(--primary);
+      color: white !important;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
+    }
+    .cert-btn-outline {
+      background: var(--surface-card);
+      color: var(--text) !important;
+    }
+    .cert-btn-outline:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      color: var(--primary-hover) !important;
+    }
+
     /* Contact Section */
     .contact-banner {
       background: linear-gradient(145deg, #0d1527 0%, #172554 100%);
@@ -863,6 +1009,7 @@
       <a href="#portfolio">Showcase</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
+      <a href="#certifications">Certificates</a>
       <a href="https://github.com/Narendrajaware" target="_blank" rel="noopener">GitHub</a>
       <button id="themeToggle" class="theme-toggle" title="Toggle Theme" aria-label="Toggle Theme">🌙</button>
       <a href="#contact" class="nav-cta">Let's Connect</a>
@@ -1227,6 +1374,136 @@
     </div>
   </section>
 
+  <!-- Professional Certifications & Workshops Section -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="label">Credentials & Certifications</div>
+        <h2>Professional Certifications & Workshops</h2>
+        <p>Verified industry credentials and hands-on workshop certifications. Click to preview or open direct verification links.</p>
+      </div>
+
+      <div class="cert-grid">
+        
+        <!-- Certificate 1: IBM Data Analysis Using Python -->
+        <article class="cert-card reveal">
+          <div class="cert-thumb-wrap" onclick="openLightbox('assets/certificates/ibm-data-analysis-using-python.jpg', 'IBM - Data Analysis Using Python (Issued Sep 17, 2026)')">
+            <img class="cert-thumb" src="assets/certificates/ibm-data-analysis-using-python.jpg" alt="IBM Data Analysis Using Python Certificate">
+            <div class="cert-thumb-overlay">🔍 Expand Certificate</div>
+          </div>
+          <div class="cert-header">
+            <span class="cert-issuer">IBM</span>
+            <span class="cert-date">Sep 17, 2026</span>
+          </div>
+          <h3>Data Analysis Using Python</h3>
+          <p class="cert-desc">Comprehensive data analytics workflow in Python including data wrangling, exploratory data analysis, statistical modeling, and visualization using Pandas, NumPy, Matplotlib, and Seaborn.</p>
+          <span class="cert-id-tag">Badge ID: 271a250d-28fa-435c</span>
+          <div class="cert-actions">
+            <a class="cert-btn cert-btn-primary" href="assets/certificates/ibm-data-analysis-using-python.jpg" target="_blank">
+              📄 Open Certificate
+            </a>
+            <a class="cert-btn cert-btn-outline" href="https://www.credly.com/badges/271a250d-28fa-435c-9b93-d73246978184" target="_blank" rel="noopener">
+              🔗 Verify Credly ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- Certificate 2: Reliance Security Analyst -->
+        <article class="cert-card reveal">
+          <div class="cert-thumb-wrap" onclick="openLightbox('assets/certificates/reliance-security-analyst.jpg', 'Reliance Foundation Skilling Academy - Security Analyst Certificate Programme (RFSA000534783)')">
+            <img class="cert-thumb" src="assets/certificates/reliance-security-analyst.jpg" alt="Reliance Foundation Security Analyst Certificate">
+            <div class="cert-thumb-overlay">🔍 Expand Certificate</div>
+          </div>
+          <div class="cert-header">
+            <span class="cert-issuer">Reliance Foundation</span>
+            <span class="cert-date">07.07.2026</span>
+          </div>
+          <h3>Security Analyst Certificate Programme</h3>
+          <p class="cert-desc">Enterprise cyber risk assessment, security intelligence reporting, incident response protocols, and security monitoring methodologies conducted by Reliance Foundation Skilling Academy.</p>
+          <span class="cert-id-tag">ID: RFSA000534783</span>
+          <div class="cert-actions">
+            <a class="cert-btn cert-btn-primary" href="assets/certificates/reliance-security-analyst.jpg" target="_blank">
+              📄 Open Certificate
+            </a>
+            <button class="cert-btn cert-btn-outline" onclick="openLightbox('assets/certificates/reliance-security-analyst.jpg', 'Reliance Foundation Skilling Academy - Security Analyst Certificate Programme (RFSA000534783)')">
+              🔍 Full Preview
+            </button>
+          </div>
+        </article>
+
+        <!-- Certificate 3: IT Vedant SQL Mastery -->
+        <article class="cert-card reveal">
+          <div class="cert-thumb-wrap" onclick="openLightbox('assets/certificates/itvedant-sql-mastery.jpg', 'IT Vedant - SQL Mastery Certification (ITV6a2af8864df7c)')">
+            <img class="cert-thumb" src="assets/certificates/itvedant-sql-mastery.jpg" alt="IT Vedant SQL Mastery Certificate">
+            <div class="cert-thumb-overlay">🔍 Expand Certificate</div>
+          </div>
+          <div class="cert-header">
+            <span class="cert-issuer">IT Vedant</span>
+            <span class="cert-date">14th May, 2026</span>
+          </div>
+          <h3>SQL Mastery Certification</h3>
+          <p class="cert-desc">Rigorous training in advanced relational database querying, multi-table joins, subqueries, indexing, window functions, and database architecture for business analytics.</p>
+          <span class="cert-id-tag">ID: ITV6a2af8864df7c</span>
+          <div class="cert-actions">
+            <a class="cert-btn cert-btn-primary" href="assets/certificates/itvedant-sql-mastery.jpg" target="_blank">
+              📄 Open Certificate
+            </a>
+            <button class="cert-btn cert-btn-outline" onclick="openLightbox('assets/certificates/itvedant-sql-mastery.jpg', 'IT Vedant - SQL Mastery Certification (ITV6a2af8864df7c)')">
+              🔍 Full Preview
+            </button>
+          </div>
+        </article>
+
+        <!-- Certificate 4: Diwali Sales Insights EDA -->
+        <article class="cert-card reveal">
+          <div class="cert-thumb-wrap" onclick="openLightbox('assets/certificates/diwali-sales-eda.jpg', 'IBM Skills Network & IT Vedant - Diwali Sales Insights: EDA for Targeted Marketing (GPXX0J5BEN)')">
+            <img class="cert-thumb" src="assets/certificates/diwali-sales-eda.jpg" alt="Diwali Sales Insights EDA Certificate">
+            <div class="cert-thumb-overlay">🔍 Expand Certificate</div>
+          </div>
+          <div class="cert-header">
+            <span class="cert-issuer">IBM & IT Vedant</span>
+            <span class="cert-date">Sep 17, 2026</span>
+          </div>
+          <h3>Diwali Sales Insights: EDA for Targeted Marketing</h3>
+          <p class="cert-desc">Hands-on exploratory data analysis on consumer transactional data, customer purchasing demographics, and festive retail sales patterns to optimize targeted marketing campaigns.</p>
+          <span class="cert-id-tag">Course ID: GPXX0J5BEN</span>
+          <div class="cert-actions">
+            <a class="cert-btn cert-btn-primary" href="assets/certificates/diwali-sales-eda.pdf" target="_blank">
+              📄 Open PDF Certificate
+            </a>
+            <a class="cert-btn cert-btn-outline" href="https://courses.itvedant.skillsnetwork.site/certificates/33178916ed644d2eafba7be0cbfa9cd6" target="_blank" rel="noopener">
+              🔗 Verify Online ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- Certificate 5: Interpretable Gen AI Healthcare -->
+        <article class="cert-card reveal">
+          <div class="cert-thumb-wrap" onclick="openLightbox('assets/certificates/interpretable-genai-healthcare.jpg', 'IBM Skills Network & IT Vedant - Interpretable Gen AI for Informed Healthcare Decisions (GPXX0G6UEN)')">
+            <img class="cert-thumb" src="assets/certificates/interpretable-genai-healthcare.jpg" alt="Interpretable Gen AI for Informed Healthcare Decisions Certificate">
+            <div class="cert-thumb-overlay">🔍 Expand Certificate</div>
+          </div>
+          <div class="cert-header">
+            <span class="cert-issuer">IBM & IT Vedant</span>
+            <span class="cert-date">Sep 17, 2026</span>
+          </div>
+          <h3>Interpretable Gen AI for Informed Healthcare Decisions</h3>
+          <p class="cert-desc">Applied generative artificial intelligence methodologies, interpretability models, and clinical decision support analytics for informed medical data interpretation.</p>
+          <span class="cert-id-tag">Course ID: GPXX0G6UEN</span>
+          <div class="cert-actions">
+            <a class="cert-btn cert-btn-primary" href="assets/certificates/interpretable-genai-healthcare.pdf" target="_blank">
+              📄 Open PDF Certificate
+            </a>
+            <a class="cert-btn cert-btn-outline" href="https://courses.itvedant.skillsnetwork.site/certificates/c2311c106ee042ca9b2384200bb2620d" target="_blank" rel="noopener">
+              🔗 Verify Online ↗
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
   <!-- Contact Section -->
   <section id="contact">
     <div class="container">
@@ -1331,7 +1608,7 @@
   }
 
   // 3D Gesture Tilt & Interactive Cursor Spotlight
-  const gestureCards = document.querySelectorAll('.project-card, .hero-card, .fact-card, .edu-card');
+  const gestureCards = document.querySelectorAll('.project-card, .hero-card, .fact-card, .edu-card, .cert-card');
   gestureCards.forEach(card => {
     card.addEventListener('mousemove', e => {
       const rect = card.getBoundingClientRect();
