@@ -54,12 +54,11 @@ Welcome to the official portfolio repository of **Narendra Jaware**, a BSc Compu
 
 ---
 
-## 🎓 Education & Certifications
+## 🎓 Education
 
 - **Bachelor of Science in Computer Science (First Class)** — Ashoka Centre for Business and Computer Science, SPPU Nashik (2022 – 2025)
-- **IBM Data Analysis Using Python** (Issued Sep 17, 2026)
-- **Data Science Integrated Intern** — Code B (6 Months)
-- Certifications in SQL Mastery, Tableau Essentials, Power BI Essentials, and Cyber Security Analysis
+- **Higher Secondary Certificate (12th Grade, First Class)** — Shree Swami Samarth Arts, Commerce & Science College, Nandgaon, Nashik (2021 – 2022)
+- **Secondary School Certificate (10th Grade, First Class)** — NDMVPS New English School, Nandgaon, Nashik (2019 – 2020)
 
 ---
 
