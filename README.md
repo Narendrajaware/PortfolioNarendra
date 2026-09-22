@@ -69,6 +69,11 @@ Welcome to the official portfolio repository of **Narendra Jaware**, a BSc Compu
 3. **SQL Mastery Certification** — IT Vedant (ID: ITV6a2af8864df7c, 14th May, 2026)
 4. **[Diwali Sales Insights: EDA for Targeted Marketing](https://courses.itvedant.skillsnetwork.site/certificates/33178916ed644d2eafba7be0cbfa9cd6)** — IBM Developer Skills Network & IT Vedant (Sep 17, 2026)
 5. **[Interpretable Gen AI for Informed Healthcare Decisions](https://courses.itvedant.skillsnetwork.site/certificates/c2311c106ee042ca9b2384200bb2620d)** — IBM Developer Skills Network & IT Vedant (Sep 17, 2026)
+6. **Data Analytics Job Simulation** — Deloitte & Forage (Enrolment Code: JwdaMe2cHvZ7ZSNTc, Aug 4, 2026)
+7. **AI Tools & Claude Workshop** — be10x (Verified Completion, Aug 5, 2026)
+8. **Power BI Essentials** — IT Vedant (ID: ITV6a43adffe4871, 29th May, 2026)
+9. **Tableau Essentials** — IT Vedant (ID: ITV6a5a3d1b6011e, 23rd Jun, 2026)
+10. **Advanced Excel** — IT Vedant (ID: ITV6a2af85a9adca, 28th May, 2026)
 
 ---
 
