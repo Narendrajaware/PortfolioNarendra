@@ -20,8 +20,8 @@ Welcome to the official portfolio repository of **Narendra Jaware**, a BSc Compu
 - **Analytical Methods**: Exploratory Data Analysis (EDA), KPI Dashboards, Variance Analysis (Budget vs Actual), Risk Modeling, Market Segmentation
 - **Professional & Soft Skills**:
   - 🤝 Collaborative Teamwork (Win Together)
-  - ⚡ Agile Project Management
-  - ⏱️ Time Management
+  - 🧠 Critical Thinking
+  - 🧩 Problem Solving
   - 👂 Empathetic Listening
 
 ---
